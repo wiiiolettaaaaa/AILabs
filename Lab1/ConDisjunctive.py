@@ -12,10 +12,10 @@ fig, axes = plt.subplots(1, 2, figsize=(16,6))
 
 axes[0].plot(x, a)
 axes[0].plot(x, b)
-axes[0].plot(x, con)
+axes[0].plot(x, con, "r+")
 axes[1].plot(x, a)
 axes[1].plot(x, b)
-axes[1].plot(x, dis)
+axes[1].plot(x, dis, "r+")
 
 axes[0].set_title("Конʼюнкція")
 axes[1].set_title("Дизʼюнкція")
